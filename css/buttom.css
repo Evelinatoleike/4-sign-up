@@ -5,10 +5,24 @@
     padding-left: 50px;
     padding-right: 50px;
     background-color: blue;
+    background: linear-gradient(
+        90deg,
+        blue 0%,
+        rgb(173, 173, 224) 100%
+    );
     color: white;
     font-size: 20px;
     line-height: 20px;
     border: none;
     border-radius: 25px;
-    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: red;
+    background: linear-gradient(
+        90deg,
+        red 0%,
+        rgb(228, 189, 189) 100%
+    );
 }
